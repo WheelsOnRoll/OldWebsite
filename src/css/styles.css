@@ -1,15 +1,3 @@
-/*
-
-################################
-####    MyPage              ####
-####    by Hrily            ####
-####    github.com/Hrily    ####
-################################
-
-My quest to create responsive web page using CSS only
-
-*/
-
 body {
     margin: 0;
     background-color: #f3f8ec;
@@ -61,17 +49,21 @@ body {
 }
 
 .gallery {
-    display: table-cell;
-    padding: 1%;
+    display: inline-block;
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 10%;
+    margin-bottom: 3%;
 }
 
 .gallery-row {
     display: table-row;
 }
 
+
 .gallery img {
-    width: 100%;
-    padding: 1%;
+    width: 16vw;
+    padding: 4%;
     -webkit-transition: all .3s ease-out;
          -o-transition: all .3s ease-out;
             transition: all .3s ease-out;
@@ -287,14 +279,16 @@ header li {
     }
 
     .gallery img {
-        padding: 0;
+        width: 50%;
+        padding: 4%;
         -webkit-filter: grayscale(0);
                 filter: grayscale(0);   
     }
 
     .gallery {
         display: inline-block;
-        width: 100%;
+        width: 50%;
+        height: 50%;
         padding: 0;
     }
 
