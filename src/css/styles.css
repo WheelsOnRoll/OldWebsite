@@ -14,6 +14,7 @@ body {
 
 .container {
     padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 #home {
@@ -24,12 +25,10 @@ body {
 }
 
 .footer {
-    margin-top: 70px;
     display: inline-block;
     width: 100%;
     color: #fff;
     background-color: #72a538;
-    padding-bottom: 70px;
 }
 
 .footer span {
@@ -37,7 +36,9 @@ body {
 }
 
 .navi {
+    position: absolute;
     float: right;
+    right: 10%;
 }
 
 .navi ul {
@@ -46,6 +47,7 @@ body {
 
 .navi li{
     padding: 2%;
+    margin-bottom: 20%; 
 }
 
 .gallery {
@@ -69,7 +71,7 @@ body {
             transition: all .3s ease-out;
     -webkit-filter: grayscale(1);
             filter: grayscale(1);
-    height: 18vw;
+
 }
 
 .gallery img:hover {
@@ -200,6 +202,32 @@ header li {
     color: #2262AD;
 }
 
+.service {
+    position: relative;
+    display: table-row;
+    vertical-align: middle;
+}
+
+.service span{
+    display: inline-block;
+    margin-left: 13%;
+    padding: 2%;
+}
+
+.service h3{
+    margin: 0;
+}
+
+.service img{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+         -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
 @media only screen and (max-width : 640px) {
  
     header {
@@ -246,17 +274,17 @@ header li {
         -webkit-transition: all .3s ease-out;
              -o-transition: all .3s ease-out;
                 transition: all .3s ease-out;
-        background: #222;
+        background: #476723;
         width: 100%;
         box-shadow: 0 3px 2px rgba(0, 0, 0, .3);
     }
  
     nav li, .navi li {
         width: 100%;
-        border-top: 1px solid #444;
         padding: 10px;
         padding-left: 0;
         padding-right: 0;
+        margin-bottom: 0;
     }
 
     nav li a{
@@ -303,30 +331,15 @@ header li {
     .navi, .about {
         float: none;
         text-align: center;
+        position: static;
     }
 
     .navi ul {
         padding: 0;
     }
 
-    #a-top {
-        border-bottom: 1px solid #444;
-    }
-
     .footer span {
         display: block;
     }
 
-}
-
-.images {
-    position:relative;
-}
-
-#social-media {
-    position: absolute;
-    top: 76%;
-    right: 6%;
-    height: 12%;
-    width: 13%;
 }

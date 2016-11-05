@@ -21,5 +21,5 @@ function prev(){
 }
 
 function start_rolling(){
-	setInterval(function(){next();}, 3000);
+	setInterval(function(){next();}, 8000);
 }

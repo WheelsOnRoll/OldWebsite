@@ -1,12 +1,14 @@
 .carousel {
 	position: relative;
-	background-color: #FFFFFF;
 	width: 95%;
-    max-width: 600px;
+    max-width: 700px;
     padding: 2%;
     overflow: hidden;
-    text-align: center;  
-    box-shadow: 0 0px 6px rgba(0, 0, 0, .3);
+    text-align: center;
+}
+
+.carousel-container {
+	background: #476723;
 }
 
 .carousel-list {
@@ -58,7 +60,7 @@ input:nth-child(5):checked ~ ul {
 
 .carousel-list li {
     opacity: 0;
-    transition: all 1.5s;
+    transition: all 1s;
 }
 
 input:nth-child(1):checked ~ ul li:nth-child(1),
