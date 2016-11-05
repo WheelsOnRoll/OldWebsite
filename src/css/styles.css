@@ -45,7 +45,7 @@ body {
 }
 
 .navi li{
-    padding: 2%;
+    padding: 8%;
 }
 
 .gallery {
@@ -64,17 +64,7 @@ body {
 .gallery img {
     width: 16vw;
     padding: 4%;
-    -webkit-transition: all .3s ease-out;
-         -o-transition: all .3s ease-out;
-            transition: all .3s ease-out;
-    -webkit-filter: grayscale(1);
-            filter: grayscale(1);
     height: 18vw;
-}
-
-.gallery img:hover {
-    -webkit-filter: grayscale(0);
-            filter: grayscale(0);
 }
 
 .title {
@@ -202,6 +192,16 @@ header li {
 
 .images {
     position:relative;
+    -webkit-transition: all .3s ease-out;
+         -o-transition: all .3s ease-out;
+            transition: all .3s ease-out;
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+}
+
+.images:hover {
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
 }
 
 #social-media {
@@ -219,12 +219,6 @@ header li {
     height: 12%;
     width: 13%;
 }
-
-
-#dp {
-    
-}
-
 
 @media only screen and (max-width : 640px) {
  
@@ -279,7 +273,6 @@ header li {
  
     nav li, .navi li {
         width: 100%;
-        border-top: 1px solid #444;
         padding: 10px;
         padding-left: 0;
         padding-right: 0;
@@ -333,10 +326,6 @@ header li {
 
     .navi ul {
         padding: 0;
-    }
-
-    #a-top {
-        border-bottom: 1px solid #444;
     }
 
     .footer span {
