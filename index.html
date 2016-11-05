@@ -8,6 +8,11 @@
 	<title>Wheels On Roll</title>
   <link rel="stylesheet" href="src/css/carousel.css">
   <script type="text/javascript" src="src/js/carousel.js"></script>
+  <script type="text/javascript">
+    function goTo(id) {
+      document.getElementById(id).scrollIntoView({behavior: 'smooth'});
+    }
+  </script>
 
   </head>
   <body onload="start_rolling()"><center>
@@ -16,7 +21,7 @@
   <!--  Replace with Carousel with timer --> 
   	<img src="images/cycle.jpg" class="bg-img">
   	<div class="title"><b>Wheels On Roll</b></div>
-    <a href="#home" id="arrow-a"><img src="images/arrow-down.png" id="arrow"/></a>
+    <img src="images/arrow-down.png" id="arrow" onclick="goTo('home')" />
 
 
 	<header>
@@ -25,7 +30,7 @@
 	  <nav>
 		<a id="menu-icon"><img src="images/menu-icon.png"></a>
 		<ul>
-		  <li><a href="#">Home</a></li>
+		  <li><a href="goTo('home')">Home</a></li>
 		  <li><a href="src/services.html">Services</a></li>
 		  <li><a href="src/about.html">About</a></li>
 		</ul>
@@ -77,6 +82,8 @@
 
 <!-- Carousel Starts here -->
 
+  <div class="container">
+    <center>
     <div class="carousel">
       <input name="carousel" type="radio" value="1" checked />
       <input name="carousel" type="radio" value="2" />
@@ -103,7 +110,9 @@
       <img src="images/arrow-left.png" id="arrow-left" onClick="prev()">
       <img src="images/arrow-right.png" id="arrow-right" onClick="next()">
 
-    </div></center>
+    </div>
+    </center>
+  </div>
 
 
 <!--Carousel ends here-->
@@ -120,7 +129,7 @@
 				    <li><a href="#">Home</a></li>
             <li><a href="src/services.html">Services</a></li>
             <li><a href="src/about.html">About</a></li>				  
-            <li id="a-top"><a href="#">Top</a></li>
+            <li id="a-top"><a href="" onClick="window.scroll({top:0, behavior:'smooth'})">Top</a></li>
 				</ul>
 			</div>
 			<div class="about">
