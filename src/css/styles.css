@@ -69,7 +69,7 @@ body {
             transition: all .3s ease-out;
     -webkit-filter: grayscale(1);
             filter: grayscale(1);
-
+    height: 18vw;
 }
 
 .gallery img:hover {
