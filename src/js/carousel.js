@@ -10,12 +10,16 @@ function getsel(){
 
 function next(){
 	sel=getsel();
-	sel=(sel<LIMIT-1)?sel+1:0;
+	sel= (sel+1)%LIMIT;
 	window.document.querySelectorAll(".carousel input")[sel].checked=true;
 }
 
 function prev(){
 	sel=getsel();
-	sel=(sel)?sel-1:LIMIT-1;
+	sel= (sel-1+LIMIT)%LIMIT;
 	window.document.querySelectorAll(".carousel input")[sel].checked=true;
+}
+
+function start_rolling(){
+	setInterval(function(){next();}, 3000);
 }
