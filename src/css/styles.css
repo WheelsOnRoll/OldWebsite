@@ -26,13 +26,17 @@ body {
 
 .container {
     padding-top: 70px;
-     -webkit-transform: translateZ(0);
-             transform: translateZ(0);
-    -webkit-transition: -webkit-transform 0.6s ease-in-out;
-                    transition: transform 0.6s ease-in-out;
+}
+
+#home {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
 }
 
 .footer {
+    margin-top: 70px;
     display: inline-block;
     width: 100%;
     color: #fff;
@@ -158,9 +162,9 @@ header {
             transform: translateX(-50%);
 }
 
-#arrow-a:target ~ #home .container {
-    -webkit-transform: translateY(-1000px);
-            transform: translateY(-1000px);
+#arrow-down:active ~ #home {
+    -webkit-transform: translateY(1000px);
+            transform: translateY(1000px);
 }
  
 nav { 

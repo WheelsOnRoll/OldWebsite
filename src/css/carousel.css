@@ -6,6 +6,7 @@
     padding: 2%;
     overflow: hidden;
     text-align: center;  
+    box-shadow: 0 0px 6px rgba(0, 0, 0, .3);
 }
 
 .carousel-list {
@@ -27,6 +28,7 @@
 
 .carousel-list img {
     width: 100%; 
+    vertical-align: middle;
 	z-index: 0;
 }
 
@@ -66,39 +68,6 @@ input:nth-child(4):checked ~ ul li:nth-child(4),
 input:nth-child(5):checked ~ ul li:nth-child(5) {
     opacity: 1;
     transform: scale(1);
-}
-
-.event  {
-	color: #ffffff;
-}
-
-.event_head {
-	background-color: #6699ff;
-	position: absolute;
-	padding: 5px;
-	top: 5%;
-	left: 3%;
-	z-index: 1;
-	font-size: 4vmin;
-}
-
-.event_cap  {
-	background-color: #6699ff;
-	position: absolute;
-	padding: 5px;
-	top: 18%;
-	left: 3%;
-	font-size: 3vmin;
-}
-
-.event_des  {
-	background-color: #6699ff;
-	position: absolute;
-	padding: 5px;
-	bottom: 5%;
-	right: 3%;
-	font-size: 2vmin;
-	text-align: left;
 }
 
 .carousel button {
