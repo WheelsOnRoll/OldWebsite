@@ -318,3 +318,15 @@ header li {
     }
 
 }
+
+.images {
+    position:relative;
+}
+
+#social-media {
+    position: absolute;
+    top: 76%;
+    right: 6%;
+    height: 12%;
+    width: 13%;
+}
