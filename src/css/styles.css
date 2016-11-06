@@ -56,6 +56,16 @@ body {
     margin-bottom: 3%;
 }
 
+.gallery-mid {
+    width: 20vw;
+    height:20vw;
+    display: inline-block;
+    text-align: center;
+    padding-left: 33%;
+    padding-right: 10%;
+    margin-bottom: 3%;
+}
+
 .gallery-row {
     display: table-row;
 }
@@ -218,6 +228,28 @@ header li {
     right: 6%;
     height: 12%;
     width: 13%;
+}
+
+
+#social-media-mid {
+    position: absolute;
+    top: 85%;
+    right: 11%;
+    height: 12%;
+    width: 13%;
+}
+
+#social-media1-mid {
+    position: absolute;
+    top: 71%;
+    right: 11%;
+    height: 12%;
+    width: 13%;
+}
+
+#dp1 {
+    width:16vw;
+    height:18vw;
 }
 
 @media only screen and (max-width : 640px) {
