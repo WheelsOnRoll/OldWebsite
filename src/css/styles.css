@@ -252,11 +252,44 @@ header li {
     height:18vw;
 }
 
+.service {
+    display: table-row;
+    position: relative;
+}
+
+.service img{
+    position: absolute;
+    display: table-cell;
+    width: 10%;
+    top: 50%;
+    left: 0%;
+    -webkit-transform: translate(0%,-50%);
+        -ms-transform: translate(0%,-50%);
+         -o-transform: translate(0%,-50%);
+            transform: translate(0%,-50%);
+}
+
+.service h3{
+    margin: 0;
+}
+
+.service span{
+    display: table-cell;
+    width: 90%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
 @media only screen and (max-width : 640px) {
  
     header {
         position: fixed;
         height: 60px;
+    }
+
+    .title {
+        font-size: 8vw;
     }
 
     #logo{
@@ -269,6 +302,8 @@ header li {
         visibility: visible;
         position: relative;
         top: 50%;
+        padding-top: 8px;
+        padding-bottom: 8px;
         transform: translateY(-50%);
         display:inline-block;
         -webkit-transform: translateY(-50%);
@@ -298,14 +333,14 @@ header li {
         -webkit-transition: all .3s ease-out;
              -o-transition: all .3s ease-out;
                 transition: all .3s ease-out;
-        background: #222;
+        background: #476723;
         width: 100%;
         box-shadow: 0 3px 2px rgba(0, 0, 0, .3);
     }
  
     nav li, .navi li {
         width: 100%;
-        padding: 10px;
+        padding: 12px;
         padding-left: 0;
         padding-right: 0;
     }
@@ -362,6 +397,28 @@ header li {
 
     .footer span {
         display: block;
+    }
+
+    .service{
+        display: table;
+        text-align: center;
+    }
+
+    .service img {
+        display: inline-block;
+        position: static;
+        width: 30%;
+        padding: 3%;
+        -webkit-transform: translateY(0%);
+            -ms-transform: translateY(0%);
+             -o-transform: translateY(0%);
+                transform: translateY(0%);
+
+    }
+
+    .service span{
+        display: inline-block;
+        position: static;
     }
 
 }
