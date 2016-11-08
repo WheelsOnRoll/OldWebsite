@@ -4,6 +4,8 @@ core_members = [
 		position: "CEO",
 		mobile: "+91 86993 34101",
 		email: "abc@example.com",
+		facebook: "https://www.facebook.com/"
+		linkedin:  "http://www.linkedin.com/"
 		image: "../images/team_pratyush.jpg"
 	},
 	{
@@ -11,6 +13,8 @@ core_members = [
 		position: "CFO",
 		mobile: "+91 74110 78503",
 		email: "abc@example.com",
+		facebook: "https://www.facebook.com/"
+		linkedin:  "http://www.linkedin.com/"
 		image: "../images/team_piyush.jpg"
 	},
 	{
@@ -18,6 +22,8 @@ core_members = [
 		position: "CCO",
 		mobile: "+91 94834 15364",
 		email: "abc@example.com",
+		facebook: "https://www.facebook.com/"
+		linkedin:  "http://www.linkedin.com/"
 		image: "../images/team_amartya.jpg"
 	},
 	{
@@ -25,6 +31,8 @@ core_members = [
 		position: "CTO",
 		mobile: "+91 87624 00495",
 		email: "abc@example.com",
+		facebook: "https://www.facebook.com/"
+		linkedin:  "http://www.linkedin.com/"
 		image: "../images/team_jeshventh.jpg"
 	}
 ]
@@ -35,6 +43,8 @@ tech_members = [
 		position: "Tech Lead - EC",
 		mobile: "+91 99697 67541",
 		email: "abc@example.com",
+		facebook: "https://www.facebook.com/"
+		linkedin:  "http://www.linkedin.com/"
 		image: "../images/team_tarun.jpg"
 	},
 	{
@@ -42,6 +52,8 @@ tech_members = [
 		position: "Tech Lead - CS",
 		mobile: "+91 8147298166",
 		email: "hrishihiraskar@gmail.com",
+		facebook: "https://www.facebook.com/hrishi.hiraskar7"
+		linkedin:  "www.linkedin.com/in/hrishi-hiraskar"
 		image: "../images/team_hrishi.jpg"
 	},
 	{
@@ -49,13 +61,17 @@ tech_members = [
 		position: "Tech Lead - EC",
 		mobile: "+91 74067 70011",
 		email: "abc@example.com",
+		facebook: "https://www.facebook.com/"
+		linkedin:  "http://www.linkedin.com/"
 		image: "../images/team_mohiitaa.jpg"
 	},
 	{
 		name: "Salman Shah",
 		position: "Tech Support",
 		mobile: "+91 88618 97183",
-		email: "abc@example.com",
+		email: "sbs.191197@gmail.com",
+		facebook: "https://www.facebook.com/"
+		linkedin:  "http://www.linkedin.com/"
 		image: "../images/team_salman.jpg"
 	},
 	{
@@ -63,6 +79,8 @@ tech_members = [
 		position: "Tech Support",
 		mobile: "+91 98198 35261",
 		email: "abc@example.com",
+		facebook: "https://www.facebook.com/"
+		linkedin:  "http://www.linkedin.com/"
 		image: "../images/team_rohan.jpg"
 	},
 ]

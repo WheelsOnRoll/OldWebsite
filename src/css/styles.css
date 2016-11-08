@@ -103,11 +103,9 @@ a:hover {
 }
  
 .bg-img {
-    width: 100%;
-    display: inline-block;
-    vertical-align: middle;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    height: 100%;
+    background: url('../../images/cycle.jpg') no-repeat fixed;
+    background-size: 100% auto, cover;
 }
 
 header {
@@ -253,14 +251,17 @@ header li {
 }
 
 .service {
-    display: table-row;
+    display: table;
     position: relative;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .service img{
     position: absolute;
     display: table-cell;
-    width: 10%;
+    height: 75%;
     top: 50%;
     left: 0%;
     -webkit-transform: translate(0%,-50%);
@@ -277,8 +278,6 @@ header li {
     display: table-cell;
     width: 90%;
     padding-left: 3%;
-    padding-top: 3%;
-    padding-bottom: 3%;
 }
 
 @media only screen and (max-width : 640px) {
@@ -288,7 +287,15 @@ header li {
         height: 60px;
     }
 
+    .bg-img {
+        margin-top: 60px;
+        height: 100%;
+        background: url('../../images/cycle_mob.jpg') no-repeat;
+        background-size: 100% auto, cover;
+    }
+
     .title {
+        top: 84vw;
         font-size: 8vw;
     }
 
