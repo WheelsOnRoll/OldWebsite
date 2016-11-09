@@ -362,6 +362,8 @@ header li {
     .images  {
         display: inline-block;
         width: 75%;
+        -webkit-filter: grayscale(0);
+                filter: grayscale(0);  
     }
 
     .gallery img {
