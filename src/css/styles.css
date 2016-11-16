@@ -427,6 +427,9 @@ header li {
     .service span{
         display: block;
         position: static;
+        margin: 0;
+        padding: 10px;
+        width: 100%;
     }
 
 }
