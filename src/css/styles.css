@@ -411,6 +411,7 @@ header li {
         display: inline-block;
         position: static;
         width: 30%;
+        height: auto;
         padding: 3%;
         -webkit-transform: translateY(0%);
             -ms-transform: translateY(0%);
@@ -419,8 +420,12 @@ header li {
 
     }
 
+    .service h3{
+    	text-align: center;
+    }
+
     .service span{
-        display: inline-block;
+        display: block;
         position: static;
     }
 
