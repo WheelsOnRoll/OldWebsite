@@ -7,8 +7,54 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Wheels On Roll</title>
 
+  <script type="text/javascript" src="js/team.json"></script>
+  <script type="text/javascript">
+
+  function get_model(member){
+    var model = '<h3 class="label">'+member.position+'</h3>';
+    model += '<div class = "images">';
+    model += '<img src="'+member.image+'"/>';
+    model += '<a href="'+member.linkedin+'"><img src="../images/logo_linkedin.png" id="social-media-linkedin"></a>';
+    model += '<a href="'+member.facebook+'"><img src="../images/logo_fb.png" id="social-media-fb"></a></div>';
+    model += '<div style="padding-top: 4%;">'+member.name+'</div>';
+    model += '<div style="padding-top: 2%;">'+member.mobile+'</div>';
+    model += '<div style="padding-top: 2%;padding-bottom: 2%;"><a href="mailto:'+member.email+'">'+member.email+'</a></div>';
+    return model;
+  }
+
+  function load_members(){
+    var gallery_container = document.getElementById("gallery");
+    // Core members
+    var gallery_row;
+    gallery_container.innerHTML += '<h2 class="label">Core Team</h2>';
+    for(var i=0;i<core_members.length;i++){
+      if(i%2==0){
+        gallery_container.innerHTML += '<div class="gallery-row" id="core-gallery-row-'+i+'"></div>';
+        gallery_row = document.getElementById('core-gallery-row-'+i);
+      }
+      var member = core_members[i];
+      gallery_row.innerHTML += '<div class="gallery" id="core-member-'+i+'"></div>';
+      var member_container = document.getElementById('core-member-'+i);
+      member_container.innerHTML += get_model(member);
+    }
+    // Tech Members
+    gallery_container.innerHTML += '<h2 class="label">Tech Team</h2>';
+    for(var i=0;i<tech_members.length;i++){
+      if(i%2==0){
+        gallery_container.innerHTML += '<div class="gallery-row" id="tech-gallery-row-'+i+'"></div>';
+        gallery_row = document.getElementById('tech-gallery-row-'+i);
+      }
+      var member = tech_members[i];
+      gallery_row.innerHTML += '<div class="gallery" id="tech-member-'+i+'"></div>';
+      var member_container = document.getElementById('tech-member-'+i);
+      member_container.innerHTML += get_model(member);
+    }
+  }
+
+  </script>
+
   </head>
-  <body><center>
+  <body onload="load_members()"><center>
 
 
 	<header>
@@ -25,6 +71,13 @@
     </div>
   </header>
 
+ 
+
+  <div class="container" id="gallery">
+  </div>
+
+   <!--
+
 	<div class="container" id="gallery" style="display: table;">
 
     <br>
@@ -32,7 +85,7 @@
 
     <div class="gallery-row">
       <div class="gallery">
-        <h3>CEO</h3>
+      ' <h3 clas="label"s>CEO</h3'
         <div class = "images">
           <img src="../images/team_pratyush.jpg" id="dp">
           <a href="https://www.linkedin.com">
@@ -188,6 +241,8 @@
       </div>
     </div>
   </div>
+
+  -->
   
 	<div class="footer">
     <div class="container" id="about">
@@ -203,7 +258,7 @@
         <h4>Wheels On Roll</h4>
         <p>An NITK Startup</p>
         <p>Our quest to create a Pollution-Free world</p>
-        <p><a href="https://www.facebook.com/Wheelsonroll"><img src="../images/fb-logo.png" height="40px" /></a></p>
+        <p><a href="https://www.facebook.com/Wheelsonroll"><img src="../images/logo_fb_white.png" height="40px" /></a></p>
       </div>
     </div>
   </div>
