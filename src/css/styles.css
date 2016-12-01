@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    padding-top: 70px;
+    padding-top: 30px;
 }
 
 #home {
@@ -29,7 +29,7 @@ body {
     width: 100%;
     color: #fff;
     background-color: #72a538;
-    padding-bottom: 70px;
+    padding-bottom: 10px;
 }
 
 .footer span {
