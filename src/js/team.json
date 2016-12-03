@@ -1,7 +1,7 @@
 var core_members = [
     {
         "name": "Pratyush Giri",
-        "position": "Co-founder and managing partner",
+        "position": "Co-founder and Marketing Partner",
         "mobile": "+91 86993 34101",
         "email": "pratyushgr@gmail.com",
         "facebook": "https://www.facebook.com/pratyushgr777",
@@ -10,7 +10,7 @@ var core_members = [
     },
     {
         "name": "Piyush Bansal",
-        "position": "Co-founder and finance Partner ",
+        "position": "Co-founder and Finance Partner ",
         "mobile": "+91 74110 78503",
         "email": "bansalpiyush456@gmail.com",
         "facebook": "https://www.facebook.com/piyush.bansal.547389",
@@ -19,7 +19,7 @@ var core_members = [
     },
     {
         "name": "Amartya Gupta",
-        "position": "Co-founder and operations partner",
+        "position": "Co-founder and Operations Partner",
         "mobile": "+91 94834 15364",
         "email": "marty11g@gmail.com",
         "facebook": "https://www.facebook.com/amartya.gupta.1",
@@ -28,7 +28,7 @@ var core_members = [
     },
     {
         "name": "Jeshventh Raja T K",
-        "position": "Co-founder and technical partner",
+        "position": "Co-founder and Technical Partner",
         "mobile": "+91 87624 00495",
         "email": "jeshventhrajatk@gmail.com",
         "facebook": "https://www.facebook.com/jeshventh",
@@ -41,7 +41,7 @@ var core_members = [
 var tech_members = [
     {
         "name": "Tarun Mittal",
-        "position": "Product developer",
+        "position": "Product Developer",
         "mobile": "+91 99697 67541",
         "email": "trmittal24@gmail.com",
         "facebook": "https://www.facebook.com/trmittal",
@@ -50,7 +50,7 @@ var tech_members = [
     },
     {
         "name": "Hrishi Hiraskar",
-        "position": "Web and app developer",
+        "position": "Web and App Developer",
         "mobile": "+91 8147298166",
         "email": "hrishihiraskar@gmail.com",
         "facebook": "https://www.facebook.com/hrishi.hiraskar7",
@@ -59,7 +59,7 @@ var tech_members = [
     },
     {
         "name": "Mohita Chowdhury",
-        "position": "Product developer",
+        "position": "Product Developer",
         "mobile": "+91 74067 70011",
         "email": "chowdhury.mohita@gmail.com",
         "facebook": "https://www.facebook.com/mohiitaa.chawdhry",
@@ -68,7 +68,7 @@ var tech_members = [
     },
     {
         "name": "Salman Shah",
-        "position": "Web and app developer",
+        "position": "Web and App Developer",
         "mobile": "+91 88618 97183",
         "email": "sbs.191197@gmail.com",
         "facebook": "https://www.facebook.com/salman.shah.92775",
@@ -77,7 +77,7 @@ var tech_members = [
     },
     {
         "name": "Rohan Surve",
-        "position": "Product developer",
+        "position": "Product Developer",
         "mobile": "+91 98198 35261",
         "email": "rohanbfg@gmail.com",
         "facebook": "https://m.facebook.com/rohan.surve.946?ref=bookmarks",
