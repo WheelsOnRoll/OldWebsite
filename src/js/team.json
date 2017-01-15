@@ -83,5 +83,23 @@ var tech_members = [
         "facebook": "https://m.facebook.com/rohan.surve.946?ref=bookmarks",
         "linkedin":  "",
         "image": "../images/team_rohan.jpg"
+    },
+    {
+        "name": "Santosh Kodali",
+        "position": "Product and app developer",
+        "mobile": "+91 95918 20035",
+        "email": "santoshkvk@gmail.com",
+        "facebook": "https://www.facebook.com/santosh.kodali",
+        "linkedin": "https://in.linkedin.com/in/santosh-kodali-ba681b136",
+        "image": "../images/team_santosh.jpg"
+    },
+    {
+        "name": "Abhishek Thigale",
+        "position": "Product Developer",
+        "mobile": "+91 98709 09356",
+        "email": "sbs.19@gmail.com",
+        "facebook": "https://www.facebook.com/abhi.thigale.3",
+        "linkedin": "https://in.linkedin.com/in/abhishek-thigale-290b18116",
+        "image": "../images/team_abhishek.jpg"
     }
 ]
