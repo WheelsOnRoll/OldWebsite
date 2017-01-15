@@ -1,7 +1,11 @@
 var core_members = [
     {
         "name": "Pratyush Giri",
+<<<<<<< HEAD
         "position": "Co-founder and managing partner",
+=======
+        "position": "Co-founder and Marketing Partner",
+>>>>>>> 62fe97e417d113295c020cdd771722b108d19276
         "mobile": "+91 86993 34101",
         "email": "pratyushgr@gmail.com",
         "facebook": "https://www.facebook.com/pratyushgr777",
@@ -10,7 +14,11 @@ var core_members = [
     },
     {
         "name": "Piyush Bansal",
+<<<<<<< HEAD
         "position": "Co-founder and finance Partner ",
+=======
+        "position": "Co-founder and Finance Partner ",
+>>>>>>> 62fe97e417d113295c020cdd771722b108d19276
         "mobile": "+91 74110 78503",
         "email": "bansalpiyush456@gmail.com",
         "facebook": "https://www.facebook.com/piyush.bansal.547389",
@@ -19,7 +27,11 @@ var core_members = [
     },
     {
         "name": "Amartya Gupta",
+<<<<<<< HEAD
         "position": "Co-founder and operations partner",
+=======
+        "position": "Co-founder and Operations Partner",
+>>>>>>> 62fe97e417d113295c020cdd771722b108d19276
         "mobile": "+91 94834 15364",
         "email": "marty11g@gmail.com",
         "facebook": "https://www.facebook.com/amartya.gupta.1",
@@ -28,7 +40,11 @@ var core_members = [
     },
     {
         "name": "Jeshventh Raja T K",
+<<<<<<< HEAD
         "position": "Co-founder and technical partner",
+=======
+        "position": "Co-founder and Technical Partner",
+>>>>>>> 62fe97e417d113295c020cdd771722b108d19276
         "mobile": "+91 87624 00495",
         "email": "jeshventhrajatk@gmail.com",
         "facebook": "https://www.facebook.com/jeshventh",
@@ -41,7 +57,11 @@ var core_members = [
 var tech_members = [
     {
         "name": "Tarun Mittal",
+<<<<<<< HEAD
         "position": "Product developer",
+=======
+        "position": "Product Developer",
+>>>>>>> 62fe97e417d113295c020cdd771722b108d19276
         "mobile": "+91 99697 67541",
         "email": "trmittal24@gmail.com",
         "facebook": "https://www.facebook.com/trmittal",
@@ -50,7 +70,11 @@ var tech_members = [
     },
     {
         "name": "Hrishi Hiraskar",
+<<<<<<< HEAD
         "position": "Web and app developer",
+=======
+        "position": "Web and App Developer",
+>>>>>>> 62fe97e417d113295c020cdd771722b108d19276
         "mobile": "+91 8147298166",
         "email": "hrishihiraskar@gmail.com",
         "facebook": "https://www.facebook.com/hrishi.hiraskar7",
@@ -59,7 +83,11 @@ var tech_members = [
     },
     {
         "name": "Mohita Chowdhury",
+<<<<<<< HEAD
         "position": "Product developer",
+=======
+        "position": "Product Developer",
+>>>>>>> 62fe97e417d113295c020cdd771722b108d19276
         "mobile": "+91 74067 70011",
         "email": "chowdhury.mohita@gmail.com",
         "facebook": "https://www.facebook.com/mohiitaa.chawdhry",
@@ -68,7 +96,11 @@ var tech_members = [
     },
     {
         "name": "Salman Shah",
+<<<<<<< HEAD
         "position": "Web and app developer",
+=======
+        "position": "Web and App Developer",
+>>>>>>> 62fe97e417d113295c020cdd771722b108d19276
         "mobile": "+91 88618 97183",
         "email": "sbs.191197@gmail.com",
         "facebook": "https://www.facebook.com/salman.shah.92775",
@@ -77,12 +109,17 @@ var tech_members = [
     },
     {
         "name": "Rohan Surve",
+<<<<<<< HEAD
         "position": "Product developer",
+=======
+        "position": "Product Developer",
+>>>>>>> 62fe97e417d113295c020cdd771722b108d19276
         "mobile": "+91 98198 35261",
         "email": "rohanbfg@gmail.com",
         "facebook": "https://m.facebook.com/rohan.surve.946?ref=bookmarks",
         "linkedin":  "",
         "image": "../images/team_rohan.jpg"
+<<<<<<< HEAD
     },
     {
         "name": "Santosh Kodali",
@@ -103,3 +140,7 @@ var tech_members = [
         "image": "../images/team_abhishek.jpg"
     }
 ]
+=======
+    }
+]
+>>>>>>> 62fe97e417d113295c020cdd771722b108d19276
