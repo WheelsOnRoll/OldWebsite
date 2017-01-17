@@ -24,7 +24,7 @@ var core_members = [
         "email": "marty11g@gmail.com",
         "facebook": "https://www.facebook.com/amartya.gupta.1",
         "linkedin":  "https://in.linkedin.com/in/amartya-gupta-26b351120",
-        "image": "../images/team_amartya.jpeg"
+        "image": "../images/team_amartya.jpg"
     },
     {
         "name": "Jeshventh Raja T K",
@@ -82,7 +82,7 @@ var tech_members = [
         "email": "chowdhury.mohita@gmail.com",
         "facebook": "https://www.facebook.com/mohiitaa.chawdhry",
         "linkedin":  "https://www.linkedin.com/in/mohita-chowdhury-838643131",
-        "image": "../images/team_mohiitaa.jpg"
+        "image": "../images/team_mohiita.jpg"
     },
     {
         "name": "Santosh Kodali",
@@ -97,7 +97,7 @@ var tech_members = [
         "name": "Abhishek Thigale",
         "position": "Product Developer",
         "mobile": "+91 98709 09356",
-        "email": "sbs.19@gmail.com",
+        "email": "abhithigale3@gmail.com",
         "facebook": "https://www.facebook.com/abhi.thigale.3",
         "linkedin": "https://in.linkedin.com/in/abhishek-thigale-290b18116",
         "image": "../images/team_abhishek.jpg"
